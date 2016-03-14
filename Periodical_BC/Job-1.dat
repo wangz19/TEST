@@ -1,0 +1,445 @@
+1
+
+   Abaqus 6.13-1                                  Date 08-3ÔÂ-2016   Time 01:38:00
+   For use at  under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes Simulia Corp.
+                                 Rising Sun Mills
+                                 166 Valley Street
+                           Providence, RI 02909-2499, USA
+ 
+
+
+                   Available for internal use at . 
+                   The Abaqus Online Support System is accessible
+                   through the "My Support" section of the SIMULIA
+                   Home Page at http://www.simulia.com.
+
+                   Support policies for academic licenses are described
+                   on the SIMULIA web site at
+                   http://www.3ds.com/products/simulia/academics/
+ 
+                          On machine ZEHAIWANGCF96 
+                          you are authorized to run
+                          Abaqus/Standard until 31-Jan-2017
+
+                          Your site id is: 200000000017504 
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.3ds.com/products/simulia/locations/
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                    Abaqus 6.13-1                        * 
+                *                                                         * 
+                *          BUILD ID: 2013_05_15-22.28.56 126354           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using release 6.13 manuals    * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *   This program may not be used for commercial purposes  * 
+                *           without payment of a commercial fee.          * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *Node
+  *Element, type=C3D8R
+  *Nset, nset=ASSEMBLY_PART-1-1_SET-1
+  *Elset, elset=ASSEMBLY_PART-1-1_SET-1
+  *Nset, nset=ASSEMBLY_SET-101
+  *Nset, nset=ASSEMBLY_SET-102
+  *Nset, nset=ASSEMBLY_SET_0FB1
+  *Nset, nset=ASSEMBLY_SET_0FB10
+  *Nset, nset=ASSEMBLY_SET_0FB11
+  *Nset, nset=ASSEMBLY_SET_0FB12
+  *Nset, nset=ASSEMBLY_SET_0FB13
+  *Nset, nset=ASSEMBLY_SET_0FB14
+  *Nset, nset=ASSEMBLY_SET_0FB15
+  *Nset, nset=ASSEMBLY_SET_0FB16
+  *Nset, nset=ASSEMBLY_SET_0FB17
+  *Nset, nset=ASSEMBLY_SET_0FB18
+  *Nset, nset=ASSEMBLY_SET_0FB19
+  *Nset, nset=ASSEMBLY_SET_0FB2
+  *Nset, nset=ASSEMBLY_SET_0FB20
+  *Nset, nset=ASSEMBLY_SET_0FB21
+  *Nset, nset=ASSEMBLY_SET_0FB22
+  *Nset, nset=ASSEMBLY_SET_0FB23
+  *Nset, nset=ASSEMBLY_SET_0FB24
+  *Nset, nset=ASSEMBLY_SET_0FB25
+  *Nset, nset=ASSEMBLY_SET_0FB3
+  *Nset, nset=ASSEMBLY_SET_0FB4
+  *Nset, nset=ASSEMBLY_SET_0FB5
+  *Nset, nset=ASSEMBLY_SET_0FB6
+  *Nset, nset=ASSEMBLY_SET_0FB7
+  *Nset, nset=ASSEMBLY_SET_0FB8
+  *Nset, nset=ASSEMBLY_SET_0FB9
+  *Nset, nset=ASSEMBLY_SET_0RL1
+  *Nset, nset=ASSEMBLY_SET_0RL10
+  *Nset, nset=ASSEMBLY_SET_0RL11
+  *Nset, nset=ASSEMBLY_SET_0RL12
+  *Nset, nset=ASSEMBLY_SET_0RL13
+  *Nset, nset=ASSEMBLY_SET_0RL14
+  *Nset, nset=ASSEMBLY_SET_0RL15
+  *Nset, nset=ASSEMBLY_SET_0RL16
+  *Nset, nset=ASSEMBLY_SET_0RL17
+  *Nset, nset=ASSEMBLY_SET_0RL18
+  *Nset, nset=ASSEMBLY_SET_0RL19
+  *Nset, nset=ASSEMBLY_SET_0RL2
+  *Nset, nset=ASSEMBLY_SET_0RL20
+  *Nset, nset=ASSEMBLY_SET_0RL21
+  *Nset, nset=ASSEMBLY_SET_0RL22
+  *Nset, nset=ASSEMBLY_SET_0RL23
+  *Nset, nset=ASSEMBLY_SET_0RL24
+  *Nset, nset=ASSEMBLY_SET_0RL25
+  *Nset, nset=ASSEMBLY_SET_0RL3
+  *Nset, nset=ASSEMBLY_SET_0RL4
+  *Nset, nset=ASSEMBLY_SET_0RL5
+  *Nset, nset=ASSEMBLY_SET_0RL6
+  *Nset, nset=ASSEMBLY_SET_0RL7
+  *Nset, nset=ASSEMBLY_SET_0RL8
+  *Nset, nset=ASSEMBLY_SET_0RL9
+  *Nset, nset=ASSEMBLY_SET_1FB1
+  *Nset, nset=ASSEMBLY_SET_1FB10
+  *Nset, nset=ASSEMBLY_SET_1FB11
+  *Nset, nset=ASSEMBLY_SET_1FB12
+  *Nset, nset=ASSEMBLY_SET_1FB13
+  *Nset, nset=ASSEMBLY_SET_1FB14
+  *Nset, nset=ASSEMBLY_SET_1FB15
+  *Nset, nset=ASSEMBLY_SET_1FB16
+  *Nset, nset=ASSEMBLY_SET_1FB17
+  *Nset, nset=ASSEMBLY_SET_1FB18
+  *Nset, nset=ASSEMBLY_SET_1FB19
+  *Nset, nset=ASSEMBLY_SET_1FB2
+  *Nset, nset=ASSEMBLY_SET_1FB20
+  *Nset, nset=ASSEMBLY_SET_1FB21
+  *Nset, nset=ASSEMBLY_SET_1FB22
+  *Nset, nset=ASSEMBLY_SET_1FB23
+  *Nset, nset=ASSEMBLY_SET_1FB24
+  *Nset, nset=ASSEMBLY_SET_1FB25
+  *Nset, nset=ASSEMBLY_SET_1FB3
+  *Nset, nset=ASSEMBLY_SET_1FB4
+  *Nset, nset=ASSEMBLY_SET_1FB5
+  *Nset, nset=ASSEMBLY_SET_1FB6
+  *Nset, nset=ASSEMBLY_SET_1FB7
+  *Nset, nset=ASSEMBLY_SET_1FB8
+  *Nset, nset=ASSEMBLY_SET_1FB9
+  *Nset, nset=ASSEMBLY_SET_1RL1
+  *Nset, nset=ASSEMBLY_SET_1RL10
+  *Nset, nset=ASSEMBLY_SET_1RL11
+  *Nset, nset=ASSEMBLY_SET_1RL12
+  *Nset, nset=ASSEMBLY_SET_1RL13
+  *Nset, nset=ASSEMBLY_SET_1RL14
+  *Nset, nset=ASSEMBLY_SET_1RL15
+  *Nset, nset=ASSEMBLY_SET_1RL16
+  *Nset, nset=ASSEMBLY_SET_1RL17
+  *Nset, nset=ASSEMBLY_SET_1RL18
+  *Nset, nset=ASSEMBLY_SET_1RL19
+  *Nset, nset=ASSEMBLY_SET_1RL2
+  *Nset, nset=ASSEMBLY_SET_1RL20
+  *Nset, nset=ASSEMBLY_SET_1RL21
+  *Nset, nset=ASSEMBLY_SET_1RL22
+  *Nset, nset=ASSEMBLY_SET_1RL23
+  *Nset, nset=ASSEMBLY_SET_1RL24
+  *Nset, nset=ASSEMBLY_SET_1RL25
+  *Nset, nset=ASSEMBLY_SET_1RL3
+  *Nset, nset=ASSEMBLY_SET_1RL4
+  *Nset, nset=ASSEMBLY_SET_1RL5
+  *Nset, nset=ASSEMBLY_SET_1RL6
+  *Nset, nset=ASSEMBLY_SET_1RL7
+  *Nset, nset=ASSEMBLY_SET_1RL8
+  *Nset, nset=ASSEMBLY_SET_1RL9
+  *Elset, elset=ASSEMBLY_SET-101
+  *Elset, elset=ASSEMBLY_SET-102
+  *material, name=MATERIAL-1
+  *elastic
+  *solidsection, elset=ASSEMBLY_PART-1-1_SET-1, material=MATERIAL-1
+  *boundary
+  *boundary
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+  *equation
+
+ ***NOTE: DUE TO EXCESSIVE REPORTING, THE ECHO OF THE *MPC and *EQUATION 
+          OPTIONS IS BEING SUPPRESSED.
+  *solidsection, elset=ASSEMBLY_PART-1-1_SET-1, material=MATERIAL-1
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+
+ ***ERROR: DEGREE OF FREEDOM 1 DOES NOT EXIST FOR NODE 101 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+ ***NOTE: DUE TO AN INPUT ERROR THE ANALYSIS PRE-PROCESSOR HAS BEEN UNABLE TO 
+          INTERPRET SOME DATA.  SUBSEQUENT ERRORS MAY BE CAUSED BY THIS OMISSION
+
+ ***NOTE: SOME MPC TYPES HAVE BEEN SORTED INTERNALLY.  REFER TO THE MPC 
+          DEFINITIONS IN THE OUTPUT FROM THE PREPROCESSOR FOR THE FINAL ORDERING
+
+ ***ERROR: DEGREE OF FREEDOM 1 DOES NOT EXIST FOR NODE 106 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 1 DOES NOT EXIST FOR NODE 111 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 1 DOES NOT EXIST FOR NODE 116 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 1 DOES NOT EXIST FOR NODE 121 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 2 DOES NOT EXIST FOR NODE 101 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 2 DOES NOT EXIST FOR NODE 106 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 2 DOES NOT EXIST FOR NODE 111 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 2 DOES NOT EXIST FOR NODE 116 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 2 DOES NOT EXIST FOR NODE 121 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 3 DOES NOT EXIST FOR NODE 101 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 3 DOES NOT EXIST FOR NODE 106 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 3 DOES NOT EXIST FOR NODE 111 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 3 DOES NOT EXIST FOR NODE 116 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: DEGREE OF FREEDOM 3 DOES NOT EXIST FOR NODE 121 INSTANCE PART-1-1. 
+           IT HAS ALREADY BEEN ELIMINATED BY ANOTHER EQUATION, MPC, RIGID BODY, 
+           KINEMATIC COUPLING CONSTRAINT, TIE CONSTRAINT OR EMBEDDED ELEMENT 
+           CONSTRAINT. THE REQUIRED EQUATION CANNOT BE FORMED.
+
+ ***ERROR: 5 nodes are missing degree of freedoms. The MPC/Equation/kinematic 
+           coupling constraints can not be formed. The nodes have been 
+           identified in node set ErrNodeMissingDofConstrDef.
+  *Step, name=Step-1, nlgeom=NO
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *Step, name=Step-1, nlgeom=NO
+  *Step, name=Step-1, nlgeom=NO
+  *static
+  *boundary
+  *output, field, variable=PRESELECT
+  *output, history, variable=PRESELECT
+  *endstep
+  *boundary
+  *Step, name=Step-1, nlgeom=NO
+  *static
+  *boundary
+  *endstep
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 1 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 21 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 26 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 46 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 51 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 71 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 76 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 96 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 101 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 102 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 103 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 104 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 105 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 121 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 122 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 123 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 124 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: DEGREE OF FREEDOM 3 IS NOT ACTIVE ON NODE 125 INSTANCE PART-1-1 - 
+             THIS BOUNDARY CONDITION IS IGNORED
+
+ ***WARNING: Boundary conditions are specified on inactive dof of 18 nodes. The 
+             nodes have been identified in node set WarnNodeBCInactiveDof.
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                    64
+          NUMBER OF NODES IS                                      125
+          NUMBER OF NODES DEFINED BY THE USER                     125
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                  375
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+
+
+          THE PROGRAM HAS DISCOVERED    16 FATAL ERRORS
+
+               ** EXECUTION IS TERMINATED **
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =  0.20000    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =  0.30000    
+       WALLCLOCK TIME (SEC) =          0
