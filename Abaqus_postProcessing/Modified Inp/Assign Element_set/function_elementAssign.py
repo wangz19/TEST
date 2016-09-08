@@ -26,14 +26,16 @@ def elementAssign (Den_hard, Den_trans):
 	# Den_transform = 0.1  # Particles transformed into bilinear plastic material
 	myfile_down=open('down_new.inp','r') #fliped using 'flip.py'
 	myfile_up=open('up.inp','r')
+	Transformed_element = [] #Transformed particle list
 	Hard_element = []
 	Soft_element = []
-	Transformed_element = [] #Transformed particle list
 	##Related to symmetrical assignment of hyterogeneity
 	Element_up = []      # Element upper side of the model
 	Element_down = []	#Element lower side of the model
 	Collumn_NO = 16 # number of collumn # Default value for .inp file data structure
-	##Read elements in up-area line by line
+	##Read elements in up-area line by line into Element_up list
+	## Modified 20160908 for model with three modulus, that transformed element still using the
+	## bilinear plastic law in the homogeneous model
 	for line in myfile_up:
 				# read the node list
 		currentline=list(map(float,line.split(',')))
@@ -49,24 +51,22 @@ def elementAssign (Den_hard, Den_trans):
 	if len(Element_up) == len(Element_down):
 		population = range(len(Element_up)) # number of element in up/down area, generate indecies
 	else:
-		print "error in up/down element list, element number do not match"
+		print "error in up/down element list reading, element number do not match"
 	## Select Hard particles
-	index = sorted(random.sample(population, int(len(population)*Den_hard)))
-	# print index
-	# print len(index)
+	index = sorted(random.sample(population, int(len(population)*Den_trans)))
 	for i in index:
-		Hard_element.append(int(Element_up[i]))
-		Hard_element.append(int(Element_down[i]))
-	# print Hard_element
-	wirteNodeList(Hard_element,'hard_new')
-	## All the particle not included in the hard_particle set Z
-	index_difference = list(set(population).difference(set(index)))
-	## Select transformed particles
-	index_transformed = sorted(random.sample(index_difference, int(len(index_difference)*Den_trans)))
-	for i in index_transformed:
 		Transformed_element.append(int(Element_up[i]))
 		Transformed_element.append(int(Element_down[i]))
-	wirteNodeList(Transformed_element,'transformed_new')
+	# print Transformed_element
+	wirteNodeList(Transformed_element,'hard_new')
+	## All the particle not included in the Transformed_element set Z
+	index_difference = list(set(population).difference(set(index)))
+	## Select transformed particles
+	index_hard = sorted(random.sample(index_difference, int(len(index_difference)*Den_hard)))
+	for i in index_hard:
+		Hard_element.append(int(Element_up[i]))
+		Hard_element.append(int(Element_down[i]))
+	wirteNodeList(Hard_element,'transformed_new')
 	index_soft = list(set(index_difference).difference(set(index_transformed)))
 	for i in index_soft:
 		Soft_element.append(int(Element_up[i]))
